@@ -37,7 +37,9 @@ def CheckDuplicateID(self):
                 self.duplicateID.setText("Not Valid!")
                 self.duplicateID.setStyleSheet("background-color: red; color: white;")
         except:
-            print("Error in check duplicate id ") ```
+            print("Error in check duplicate id ") 
+
+```
 
 # Youtube Link
 https://www.youtube.com/watch?v=ffAy89lf0MY
