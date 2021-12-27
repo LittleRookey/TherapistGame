@@ -5,6 +5,7 @@ Implemented database connection from Python GUI to MySQL.  Therapy Game and aski
 -----------------------------------------
 <img width="202" alt="loginpage" src="https://user-images.githubusercontent.com/37283117/147423137-c44d86b5-8988-4f8f-8b5b-998e974797dd.png">
 - Valid? button checks whether there is a duplicate ID in MySQL database table. 
+
 ```
 def CheckDuplicateID(self):
         # checks if there are duplicate ID in mysql db and length <= 15
@@ -36,7 +37,7 @@ def CheckDuplicateID(self):
                 self.duplicateID.setText("Not Valid!")
                 self.duplicateID.setStyleSheet("background-color: red; color: white;")
         except:
-            print("Error in check duplicate id ")
-```
+            print("Error in check duplicate id ") ```
+
 # Youtube Link
 https://www.youtube.com/watch?v=ffAy89lf0MY
