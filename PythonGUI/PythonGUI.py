@@ -25,7 +25,6 @@ def mysqlconnect(pw):
 
 def Message(title, mssg):
     msg = QMessageBox()
-    #msg.setIcon(QMessageBox.Information)
     msg.setText(mssg)
     msg.setWindowTitle(title)
     msg.setStandardButtons(QMessageBox.Ok)
