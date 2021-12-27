@@ -129,8 +129,6 @@ class RegisterWindow(QWidget):
         button_layout.addWidget(cancelButton)
         button_layout.addWidget(registerButton)
 
-        #cancelButton.clicked.connect( functionName) connects cancelButton to that function with functionName
-
         vLayout.addWidget(self.explanation)
         vLayout.addLayout(id_layout)
         vLayout.addLayout(pw_layout)
@@ -164,10 +162,6 @@ class RegisterWindow(QWidget):
         try:
             cur = self.conn.cursor()
             sql_dup_check = "select duplicate_check(%s)"
-
-            
-            #print("dup check returns: " + self.idInput.text())
-            
             cur.execute(sql_dup_check, self.idInput.text())
             num = cur.fetchone()[0]
             
@@ -180,16 +174,10 @@ class RegisterWindow(QWidget):
                 print("there is no id:", self.idInput.text())
             else:
                 self.idCheck = False
-                print("there exists id: ")
                 self.duplicateID.setText("Not Valid!")
                 self.duplicateID.setStyleSheet("background-color: red; color: white;")
-            
-            #for result in cur.fetchall():
-            #    print(result)
-
         except:
             print("Error in check duplicate id ")
-            #Run_Track_Char(conn)
 
     def Run_Register(self, id, pw, name, isPatient, gender, race, age):
         print(id, pw, name, isPatient, gender, race, age)
