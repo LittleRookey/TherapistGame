@@ -18,10 +18,10 @@ Implemented database connection from Python GUI to MySQL.  Therapy Game and aski
 ## Patient Window Starts with?
 -------------------------------------
 1. Plays a Color Game
-<img width="227" alt="Patient_Game" src="https://user-images.githubusercontent.com/37283117/147619760-36f1ef19-623e-4fce-b4b9-5d67c1f39551.png">
+<img width="223" alt="Patient_Game" src="https://user-images.githubusercontent.com/37283117/147620492-6fbd5e25-0ac5-4b45-96c9-cc4352921eed.png">
 
 2. Answers the question given
-<img width="309" alt="Patient_Answers_2" src="https://user-images.githubusercontent.com/37283117/147619819-6d114ea8-f659-4dff-a305-81263b1432b1.png">
+<img width="307" alt="Patient_Answers_2" src="https://user-images.githubusercontent.com/37283117/147620527-e2d0cf78-48b3-44db-a192-a1abe70cf64d.png">
 
 3. Exit
 
