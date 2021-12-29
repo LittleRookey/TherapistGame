@@ -31,8 +31,8 @@ Implemented database connection from Python GUI to MySQL.  Therapy Game and aski
 
 ## What can you do as a therapist? 
 ------------------------------------------------
-1. View all patients and their notes/ edit notes
-<img width="246" alt="Therapist_ViewAll" src="https://user-images.githubusercontent.com/37283117/147619975-34353a05-d4e6-4572-9f60-48f2aba47004.png">
+>1. View all patients and their notes/ edit notes
+>><img width="246" alt="Therapist_ViewAll" src="https://user-images.githubusercontent.com/37283117/147619975-34353a05-d4e6-4572-9f60-48f2aba47004.png">
 
 > view & edit notes
 >><img width="197" alt="Therapist_view_patient_note" src="https://user-images.githubusercontent.com/37283117/147620764-f75e486d-fd61-478f-b237-eb6d56124b04.png">
