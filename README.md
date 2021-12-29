@@ -15,7 +15,7 @@ Implemented database connection from Python GUI to MySQL.  Therapy Game and aski
 <img width="202" alt="loginpage" src="https://user-images.githubusercontent.com/37283117/147423137-c44d86b5-8988-4f8f-8b5b-998e974797dd.png">
 
 
-## Patient Window Starts with?
+## Patient Window after login
 -------------------------------------
 1. Plays a Color Game
 <img width="223" alt="Patient_Game" src="https://user-images.githubusercontent.com/37283117/147620492-6fbd5e25-0ac5-4b45-96c9-cc4352921eed.png">
@@ -29,10 +29,13 @@ Implemented database connection from Python GUI to MySQL.  Therapy Game and aski
 -------------------------------------------
 <img width="247" alt="Therapist_window" src="https://user-images.githubusercontent.com/37283117/147620009-81d6305f-402f-4ad6-a4d3-c75e2a16daa3.png">
 
-### What can you do as a therapist? 
+## What can you do as a therapist? 
 ------------------------------------------------
-1. ViewAll Patients
+1. View all patients and their notes/ edit notes
 <img width="246" alt="Therapist_ViewAll" src="https://user-images.githubusercontent.com/37283117/147619975-34353a05-d4e6-4572-9f60-48f2aba47004.png">
+
+> view & edit notes
+<img width="197" alt="Therapist_view_patient_note" src="https://user-images.githubusercontent.com/37283117/147620764-f75e486d-fd61-478f-b237-eb6d56124b04.png">
 
 2. Find Patients with either ID or name
 <img width="246" alt="Therapist_FIndpatient" src="https://user-images.githubusercontent.com/37283117/147620031-75c25ccf-b4ad-4edf-b047-d744e67737dc.png">
