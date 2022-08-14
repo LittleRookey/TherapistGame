@@ -46,6 +46,9 @@ Implemented database connection from Python GUI to MySQL.  Therapy Game and aski
 Deleted Before -> After
 <img width="786" alt="before_after" src="https://user-images.githubusercontent.com/37283117/147620321-efa6ba17-5dcc-4993-874e-97f99fc64718.png">
 
+## Google docs(includes flow chart + Conceptual Design)
+https://docs.google.com/document/d/1SURnm0DghiArI710mxu6ILdVFwuM_SgoO3R_JsZaDro/edit?usp=sharing
 
-# Youtube Link
+
+## Youtube Link
 https://www.youtube.com/watch?v=ffAy89lf0MY
